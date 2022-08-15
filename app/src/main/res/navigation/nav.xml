@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.android.recipeapp.ui.Home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.android.recipeapp.ui.Search.SearchFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_detail"
+            app:destination="@id/navigation_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.android.recipeapp.ui.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.android.recipeapp.ui.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.android.recipeapp.ui.Detail.DetailFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="recipe"
+            app:argType="com.android.recipeapp.model.Meals" />
+        <action
+            android:id="@+id/action_navigation_detail_to_navigation_search"
+            app:destination="@id/navigation_search" />
+        <action
+            android:id="@+id/action_navigation_detail_to_navigation_ingredients"
+            app:destination="@id/navigation_ingredients" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_ingredients"
+        android:name="com.android.recipeapp.ui.ingredients.IngredientsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_ingredients" >
+        <argument
+            android:name="recipe"
+            app:argType="com.android.recipeapp.model.Meals" />
+    </fragment>
+
+</navigation>

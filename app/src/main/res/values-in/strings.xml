@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Resep</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Cari</string>
+    <string name="title_notifications">Favorit</string>
+    <string name="title_settings">Pengaturan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="find_best_recipe">Temukan Resep Terbaik Untuk Memasak</string>
+    <string name="search_recipes">Cari Resep</string>
+    <string name="text_hi">Hay</string>
+    <string name="hi2">Siap memasak untuk makan malam?</string>
+    <string name="text_all_category">Kategori Makanan</string>
+    <string name="text_recipes">Resep</string>
+    <string name="intructions">Intruksi</string>
+    <string name="ingrediens">Bahan</string>
+    <string name="error_message">Silakan, hubungkan perangkat Anda dengan internet</string>
+    <string name="result_not_found">Hasil Tidak Ditemukan</string>
+    <string name="favorite_action_label">Lihat</string>
+    <string name="recipe_added_to_favorite">Resep ditambahkan ke favorit</string>
+    <string name="recipe_remove_from_favorite">Resep dihapus dari favorit</string>
+</resources>

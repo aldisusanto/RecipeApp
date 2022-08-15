@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Seach</string>
+    <string name="title_notifications">Favorite</string>
+    <string name="title_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="find_best_recipe">Find Best Recipe For Cooking</string>
+    <string name="search_recipes">Search Recipes</string>
+    <string name="text_hi">Hi</string>
+    <string name="hi2">Ready to cook for dinner ?</string>
+    <string name="text_all_category">Meal Category</string>
+    <string name="text_recipes">Recipes</string>
+    <string name="intructions">Intructions</string>
+    <string name="ingrediens">Ingredients</string>
+    <string name="error_message">Please, connect your device with internet </string>
+    <string name="result_not_found">Result Not Found</string>
+    <string name="favorite_action_label">See</string>
+    <string name="recipe_added_to_favorite">Recipe added to favorite</string>
+    <string name="recipe_remove_from_favorite">Recipe remove from favorite</string>
+</resources>

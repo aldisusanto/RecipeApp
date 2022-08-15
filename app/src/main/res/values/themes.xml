@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RecipeApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeOverlay.Search" parent="Theme.RecipeApp">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+
+    <color name="gray">#B7B7B7</color>
+</resources>
